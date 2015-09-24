@@ -19,4 +19,4 @@ UI/UX Design, Branding, Illustration, Photography
 
 ---
 
-Why am I a graphic designer? Why Not! I can’t help but love creating visually beautiful things. Everything we do requires us to communicate in some way or another, and being a graphic designer lets me communicate, and help others communicate, visually! I love the challenges I have to solve as a designer. 
+Why am I a graphic designer? Why Not! I can’t help but love creating visually beautiful things. Everything we do requires us to communicate in some way or another, and being a graphic designer lets me communicate, and help others communicate, visually! I love the challenges I have to solve as a designer and the satisfaction I get when I successfully solve those problems. 
