@@ -6,22 +6,14 @@ Main desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit tel
 banner: banner-main-img.jpg
 
 Sketches:
-    
-    -sketches-1.jpg
-    
-    -sketches-2.jpg
+    - sketches-1.jpg
+    - sketches-2.jpg
 
 images: 
-    
-    - src: img-1.jpg
-      
+    - src: img-1.jpg 
       caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    
     - src: img-2.jpg
-      
       caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    
     - src: img-3.jpg
-      
       caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
