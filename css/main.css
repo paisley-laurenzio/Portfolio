@@ -52,7 +52,15 @@ banner {
     background-image: url("paper.gif");
 }
 
+.bucket {
+    
+} 
 
+.piece {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
 
 .icons {
     max-width: 30em;
