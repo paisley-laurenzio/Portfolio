@@ -13,6 +13,7 @@ html {
     text-size-adjust: 100%;    
     background-color: #ccccd3;
     color: #fff;
+    font: normal 100%/1.5 sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden;
 }
@@ -62,6 +63,40 @@ banner {
     display: block;
 }
 
+.bio {
+    background-color: white;
+}
+
+.me-2 {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 1em;
+}
+
+.font {
+    color: #696969;
+    font-weight: 100;
+}
+
+.title-2 {
+    font-weight: 100;
+    padding: .25em;
+    max-width: 90%;
+    font-size: 3em;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-bottom: 3em;
+}
+
 .icons {
     max-width: 30em;
     margin: 0 auto;
@@ -73,9 +108,108 @@ banner {
     padding-top: 2rem;
     text-decoration: none;
     max-width: 5em;
+    padding: 2em 0 2em 0;
+}
+
+.title {
+    font-weight: 100;
+    padding: 1em;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer {
+    background-color: #ddd;
     margin: 0 auto;
     text-align: center;
+}
+
+@media only screen and (min-width: 320px) {
+.title {
+    font-weight: 100;
+    padding: 1em;
+    max-width: 256px;
+    text-align: center;
+    margin: 0 auto;
+}
+    
+.title-2 {
+    font-weight: 100;
+    padding: .25em;
+    padding-top: 1em;
+    max-width: 288px;
+    font-size: 4em;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-bottom: 3em;
+    max-width: 531px;
+}
+}
+
+@media only screen and (min-width: 620px) {
+.title {
+    font-weight: 100;
+    padding: 1em;
+    font-size: 5em;
+    max-width: 558px;
+    text-align: center;
+    margin: 0 auto;
+}
+    
+.title-2 {
+    font-weight: 100;
+    padding: .25em;
+    padding-top: 1em;
+    max-width: 288px;
+    font-size: 5em;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 0 2.5em;
+    padding-bottom: 3em;
+    max-width: 600px;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+.title {
+    font-weight: 100;
+    padding: 1em;
+    font-size: 6em;
+    max-width: 675px;
+    text-align: center;
+    margin: 0 auto;
+}
+    
+.title-2 {
+    font-weight: 100;
+    padding: .25em;
+    padding-top: 1em;
+    max-width: 388px;
+    font-size: 7em;
+    line-height: 110px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 0 2.5em;
+    padding-bottom: 3em;
+    max-width: 600px;
+}
 }
