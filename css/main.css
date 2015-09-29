@@ -48,45 +48,6 @@ body {
     top: 0;
 }
 
-.navwrapper{
-    position: relative;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-	bottom: 14.5px;
-	height: 40px;
-	overflow: hidden;
-	position: absolute;
-	right: 10px;
-	width: 46px;
-	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
-	text-indent: 100%;
-	white-space: nowrap; 
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active {
-	background-color: #3F3F3F;
-	background-position: 0 -40px;
-}
-
-.nav-btn[data-state="active"] {
-	background-color: #3F3F3F;
-	background-position: -46px -40px;
-}
-
-.nav {
-	background-color: #3F3F3F;
-    overflow: hidden;
-    position: absolute;
-    right: .62em;
-    width: 10em;
-    top: 168px;
-    z-index: 100;
-}
 
 .nav > ul {
 	margin: 0;
@@ -95,32 +56,19 @@ body {
 	font-size: 1.25em;
 }
 
-.nav a,
-.nav a:link,
-.nav a:visited {
-	display: block;
-	padding: 0.5em 10px;
-	color: #e2e2e2;
-	text-decoration: none;
-}
-
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: #9b9b9b;
-	color: #fff;
+	color: #505050;
 }
 
-.nav-top {
-	max-height: 0;
-	-moz-transition: all 250ms linear;
-	-o-transition: all 250ms linear;
-	-webkit-transition: all 250ms linear;
-	transition: all 250ms linear;
-}
-
-.nav-top[data-state="expanded"] {
-	max-height: 14em;
+.menue {
+    display: inline;
+    float: right;
+    padding: .25em .75em;
+    text-decoration: none;
+    font-weight: 200;
+    color: white;  
 }
 
 .parallax {
@@ -158,12 +106,19 @@ body {
     background-color: white;
 }
 
+.pic {
+    position: relative;
+    height: 100%;
+}
+
 .me-2 {
     max-width: 70%;
     margin: 0 auto;
     text-align: center;
     display: block;
-    padding: 1em 1em 0 1em;
+    padding: 3em 1em 0 1em;
+    position: sticky;
+    bottom: 0;
 }
 
 .font {
@@ -227,6 +182,15 @@ footer {
 }
 
 @media only screen and (min-width: 320px) {
+.menue {
+    display: inline;
+    float: right;
+    padding: .25em .75em;
+    text-decoration: none;
+    font-weight: 200;
+    color: white;
+}
+    
 .title {
     font-weight: 100;
     padding: 1em;
