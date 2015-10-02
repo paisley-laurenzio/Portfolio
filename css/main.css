@@ -69,8 +69,9 @@ body {
     font-weight:200;
     margin: auto;
 }
+
 .button-home:hover {
-    background: #1d1d1d;
+    background: #e0422e;
 }
 
 button:hover {
@@ -97,7 +98,6 @@ button:hover {
 .skip-links a:focus {
     top: 0;
 }
-
 
 .nav > ul {
 	margin: 0;
@@ -192,6 +192,7 @@ button:hover {
     position: relative;
     top: 0;
 }
+
 .banner {
     text-align: center;
     font-weight: 100;
@@ -296,7 +297,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-
 
 @media only screen and (min-width: 320px) {
 .banner {
