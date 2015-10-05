@@ -93,6 +93,7 @@ button:hover {
     font-weight: 100;
     padding: 0.75em 0.75em;
     text-decoration: none;
+    z-index: 100;
 }
 
 .skip-links a:focus {
@@ -182,6 +183,16 @@ button:hover {
   will-change: scroll-position;
 }
 
+.bucket img {
+    opacity: .7;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.bucket img:hover {
+    opacity: 1;
+}
 .content {
     margin-top: 62.5%;
     position: relative;
@@ -212,7 +223,7 @@ button:hover {
 }
 
 .projects {
-    background-color: black;
+    background-color: white;
 }
 
 .bio {
@@ -270,17 +281,24 @@ p {
 }
 
 .icons {
-    max-width: 30em;
+    max-width: 25em;
     margin: 0 auto;
     text-align: center;
 }
 
 .socialmedia {
     width: 60%;
-    padding-top: 2rem;
+    margin: 2rem 0;
+    padding: .25em;
     text-decoration: none;
-    max-width: 5em;
-    padding: 2em 0 2em 0;
+    max-width: 5em; 
+    box-shadow: inset 0 0 0 30px #9b9b9b;
+    -webkit-transition: box-shadow 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.socialicon img:hover {
+    box-shadow: inset 0 0 0 3px #9b9b9b;
 }
 
 .title {
