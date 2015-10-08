@@ -141,6 +141,7 @@ button:hover {
 .arrow {
     width: 70px; 
     left: 50%;
+    -webkit-transform: translateX(-50%); 
     transform: translateX(-50%); 
     padding-bottom: .25em;
     position: absolute;
@@ -244,6 +245,7 @@ button:hover {
     padding: 3em 1em 0 1em;
     bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);    
     position: absolute;
 }
@@ -347,7 +349,8 @@ footer {
     padding: 3em 1em 0 1em;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);    
+    -webkit-transform: translateX(-50%);   
+    transform: translateX(-50%);  
     position: absolute;
 }
 
@@ -415,6 +418,7 @@ p {
     padding: 3em 1em 0 1em;
     bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);   
     transform: translateX(-50%);
     position: absolute;
 }
@@ -483,6 +487,7 @@ p {
     padding: 3em 1em 0 1em;
     bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);   
     transform: translateX(-50%);
     position: absolute;
 }
