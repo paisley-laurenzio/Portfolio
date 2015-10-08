@@ -394,6 +394,13 @@ p {
     padding-bottom: 3em;
     max-width: 531px;
 }
+    
+.project-p {
+    color: #313131;
+    margin: 0 auto;
+    padding: 3em 2em;
+    font-weight: 300;
+}
 }
 
 @media only screen and (min-width: 620px) {
@@ -463,6 +470,13 @@ p {
     padding-bottom: 3em;
     max-width: 610px;
 }
+    
+.project-p {
+    color: #313131;
+    margin: 0 auto;
+    padding: 3em 2em;
+    font-weight: 300;
+}
 }
 
 @media only screen and (min-width: 1500px) {
@@ -531,5 +545,12 @@ p {
     padding: 0 2.5em;
     padding-bottom: 3em;
     max-width: 600px;
+}
+
+.project-p {
+    color: #313131;
+    margin: 0 auto;
+    padding: 3em 4em;
+    font-weight: 300;
 }
 }
