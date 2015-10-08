@@ -47,7 +47,7 @@ body {
     color: #313131;
     margin: 0 auto;
     padding: 3em 4em;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .button {
@@ -65,8 +65,8 @@ body {
     text-decoration:none;
     background: #4a4a4a;
     box-shadow: 0 0 3px gray;
-    font-size:25px;
-    font-weight:200;
+    font-size: 25px;
+    font-weight: 200;
     margin: auto;
 }
 
@@ -129,7 +129,7 @@ button:hover {
     float: right;
     padding: .25em .75em;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
     color: white;  
 } 
 
@@ -207,7 +207,7 @@ button:hover {
 
 .banner {
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 6em;
     margin: 0 auto; 
     text-align: center;
@@ -252,7 +252,7 @@ button:hover {
 
 .font {
     color: #696969;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .title-2 {
@@ -331,7 +331,7 @@ footer {
     float: right;
     padding: .25em .75em;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
 }
     
