@@ -1,0 +1,4 @@
+markdown: readcarpet
+baseurl: /portfolio
+exclude: ['README.md', 'portfolio-piece-template.md']
+
