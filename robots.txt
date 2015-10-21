@@ -1,0 +1,4 @@
+Sitemap: https://paisleylaurenzio.ca/sitemap.xml
+
+User-agent: *
+Disallow: /img
