@@ -1,0 +1,6 @@
+    <url>
+        <loc>https://paisleylaurenzio.ca/{{site.baseurl}}{{include.entry.url}}</loc>
+        {% if incude.entry.priority%}
+            <priority>{{include.entry.priority}}</priority>
+        {% endif %}
+    </url>
