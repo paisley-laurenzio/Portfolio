@@ -237,8 +237,22 @@ button:hover {
     min-height: 20em;
 }
 
+.me-1 {
+    max-width: 20em;
+    width: 70%;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 3em 1em 0 1em;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);   
+    transform: translateX(-50%);  
+    position: absolute;
+}
+
 .me-2 {
-    max-width: 15em;
+    max-width: 20em;
     width: 70%;
     margin: 0;
     text-align: center;
@@ -341,9 +355,23 @@ footer {
     min-height: 25em;
 }
 
+.me-1 {
+    max-width: 20em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 1em 1em 0 1em;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);   
+    transform: translateX(-50%);  
+    position: absolute;
+}
+
 .me-2 {
-    max-width: 15em;
-    width: 70%;
+    max-width: 17em;
+    width: 100%;
     margin: 0;
     text-align: center;
     display: block;
@@ -416,10 +444,24 @@ p {
     position: relative;
     min-height: 10em;
 }
+    
+.me-1 {
+    max-width: 18em;
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 2em 1em 0 1em;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);   
+    transform: translateX(-50%);  
+    position: absolute;
+}
 
 .me-2 {
-    max-width: 15em;
-    width: 70%;
+    max-width: 18em;
+    width: 90%;
     margin: 0;
     text-align: center;
     display: block;
@@ -493,9 +535,23 @@ p {
     min-height: 10em;
 }
 
+.me-1 {
+    max-width: 22em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 1em 1em 0 1em;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);   
+    transform: translateX(-50%);  
+    position: absolute;
+}
+
 .me-2 {
     max-width: 20em;
-    width: 70%;
+    width: 80%;
     margin: 0;
     text-align: center;
     display: block;
