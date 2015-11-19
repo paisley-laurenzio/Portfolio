@@ -1,3 +1,4 @@
 markdown: readcarpet
+permalink: pretty
 baseurl: ""
 exclude: ['README.md', 'portfolio-piece-template.md']
