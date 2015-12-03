@@ -29,7 +29,11 @@ body {
 }
 
 .project-background {
-    background-color: white;
+    background-color: #4accfc;
+}
+
+.altcolour {
+    color: #313131; 
 }
 
 .content {
