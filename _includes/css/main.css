@@ -340,13 +340,14 @@ footer {
 .logomistake {
     text-align: center;
     margin: 0 auto;
-    padding: 0 3em;
+    padding: 2em 3em 4em 3em;
+    max-width: 25%;
 }
 
 .titlemistake {
     font-weight: 100;
     padding: 1em 1em .25em 1em;
-    font-size: 6em;
+    font-size: 8em;
     max-width: 90%;
     text-align: center;
     margin: 0 auto;
@@ -355,15 +356,31 @@ footer {
 .paragraphmistake {
     letter-spacing: 1px;
     margin: 0 auto;
-    padding: 2em;
-    padding-bottom: 3em;
-    font-size: 3em;
+    padding: 0em 2em 2em 2em;
+    padding-bottom: 2em;
+    font-size: 2em;
+    font-weight: 100;
 }
 
 .footermistake {
     background-color: #4accfc;
     margin: 0 auto;
     text-align: center;
+}
+
+.socialmedia {
+    width: 60%;
+    margin: 2rem 0;
+    padding: .25em;
+    text-decoration: none;
+    max-width: 5em; 
+    box-shadow: inset 0 0 0 30px #009ad3;
+    -webkit-transition: box-shadow 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.socialiconm img:hover {
+    box-shadow: inset 0 0 0 3px #009ad3;
 }
 
 @media only screen and (min-width: 320px) {
@@ -463,6 +480,22 @@ p {
     padding: 3em 2em;
     font-weight: 300;
 }
+    
+.logomistake {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 3em 4em 3em;
+    max-width: 75%;
+}
+    
+.titlemistake {
+    font-weight: 100;
+    padding: 1em 1em .25em 1em;
+    font-size: 4em;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
 }
 
 @media only screen and (min-width: 620px) {
@@ -553,6 +586,22 @@ p {
     padding: 3em 2em;
     font-weight: 300;
 }
+    
+.logomistake {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 3em 4em 3em;
+    max-width: 50%;
+}
+    
+.titlemistake {
+    font-weight: 100;
+    padding: 1em 1em .25em 1em;
+    font-size: 7em;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
 }
 
 @media only screen and (min-width: 1500px) {
@@ -642,5 +691,12 @@ p {
     margin: 0 auto;
     padding: 3em 4em;
     font-weight: 300;
+}
+    
+.logomistake {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 3em 4em 3em;
+    max-width: 25%;
 }
 }
