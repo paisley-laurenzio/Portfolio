@@ -352,6 +352,14 @@ footer {
     margin: 0 auto;
 }
 
+.paragraphmistake {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 2em;
+    padding-bottom: 3em;
+    font-size: 3em;
+}
+
 .footermistake {
     background-color: #4accfc;
     margin: 0 auto;
