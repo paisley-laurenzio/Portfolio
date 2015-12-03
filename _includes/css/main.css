@@ -109,6 +109,7 @@ button:hover {
 	padding: 0.8em 0;
 	list-style-type: none;
 	font-size: 1.25em;
+    
 }
 
 .nav a:hover,
@@ -126,6 +127,7 @@ button:hover {
 .nav ul li {
     display: inline-block;
     float: right;
+      
 }
 
 .menue {
