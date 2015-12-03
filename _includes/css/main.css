@@ -345,8 +345,8 @@ footer {
 
 .titlemistake {
     font-weight: 100;
-    padding: 1em;
-    font-size: 5em;
+    padding: 1em 1em .25em 1em;
+    font-size: 6em;
     max-width: 90%;
     text-align: center;
     margin: 0 auto;
