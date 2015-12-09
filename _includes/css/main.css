@@ -223,6 +223,10 @@ button:hover {
     background-color: white;
 }
 
+iframe {
+    margin: 0 auto;
+}
+
 .piece {
     width: 100%;
     margin: 0 auto;
