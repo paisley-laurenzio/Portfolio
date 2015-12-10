@@ -204,6 +204,7 @@ button:hover {
     margin-top: 62.5%;
     position: relative;
     z-index: 100;
+    border-top: 2px solid white;
 }
 
 .logo {
